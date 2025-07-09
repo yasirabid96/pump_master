@@ -1,4 +1,4 @@
-import { Moon, Sun, Bell } from 'lucide-react'
+import { Bell } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import PumpSearch from './search-pump'
 import { Avatar, AvatarImage } from '@radix-ui/react-avatar'
