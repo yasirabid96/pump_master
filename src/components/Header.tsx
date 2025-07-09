@@ -15,16 +15,16 @@ export const Header = () => {
 
           {/* Navigation Links */}
           <nav className="flex gap-6 text-sm font-medium">
-            <Link to="/dashboard" className="hover:underline">
+            <Link to="/" className="hover:underline">
               Dashboard
             </Link>
-            <Link to="/pumps" className="hover:underline">
+            <Link to="/" className="hover:underline">
               Pumps
             </Link>
-            <Link to="/reports" className="hover:underline">
+            <Link to="/" className="hover:underline">
               Reports
             </Link>
-            <Link to="/alerts" className="hover:underline">
+            <Link to="/" className="hover:underline">
               Alerts
             </Link>
           </nav>

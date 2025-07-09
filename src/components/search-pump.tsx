@@ -1,16 +1,7 @@
-import {
-  CommandDialog,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-  CommandList,
-  CommandSeparator,
-} from './ui/command'
+import { CommandDialog, CommandInput, CommandList } from './ui/command'
 import { Button } from './ui/button'
 import { useState } from 'react'
-import { Clock, Loader2, Search, Star, XCircle } from 'lucide-react'
-import { useNavigate } from 'react-router-dom'
+import { Search } from 'lucide-react'
 const PumpSearch = () => {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
